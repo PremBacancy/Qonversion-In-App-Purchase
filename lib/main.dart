@@ -4,8 +4,9 @@ import 'package:qonversion_flutter/qonversion_flutter.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  final config = QonversionConfigBuilder('hTsqtpySChdr-SvM5R6_WM5q-ezjSoAh',
-          QLaunchMode.subscriptionManagement)
+  final config = QonversionConfigBuilder(
+          'your_qonversion_key', QLaunchMode.subscriptionManagement)
+
       //  sandbox is used only for the testing
       .setEnvironment(QEnvironment.sandbox)
       .build();
