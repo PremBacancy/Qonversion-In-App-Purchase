@@ -1,0 +1,41 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - Qonversion (5.6.0):
+    - Qonversion/Main (= 5.6.0)
+  - Qonversion/Main (5.6.0)
+  - qonversion_flutter (5.0.0):
+    - FlutterMacOS
+    - QonversionSandwich (= 4.1.1)
+  - QonversionSandwich (4.1.1):
+    - Qonversion (= 5.6.0)
+  - url_launcher_macos (0.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - qonversion_flutter (from `Flutter/ephemeral/.symlinks/plugins/qonversion_flutter/macos`)
+  - url_launcher_macos (from `Flutter/ephemeral/.symlinks/plugins/url_launcher_macos/macos`)
+
+SPEC REPOS:
+  trunk:
+    - Qonversion
+    - QonversionSandwich
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  qonversion_flutter:
+    :path: Flutter/ephemeral/.symlinks/plugins/qonversion_flutter/macos
+  url_launcher_macos:
+    :path: Flutter/ephemeral/.symlinks/plugins/url_launcher_macos/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  Qonversion: 37357948d6e90b2cc31e1277c6a30d38b92d8af8
+  qonversion_flutter: d91a2a788138ab7205ff0a0d501801e5d5517691
+  QonversionSandwich: c1ec24a2a6753c6b3d4743c34fcf66a7c57d1f8a
+  url_launcher_macos: d2691c7dd33ed713bf3544850a623080ec693d95
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.14.3
